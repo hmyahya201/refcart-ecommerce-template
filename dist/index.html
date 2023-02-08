@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <!--///// CSS LINK /////-->
+    <link rel="stylesheet" href="./style.css">
+    <!--///// FONT ASESOME CDN /////-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+    <!--///// HEADER /////-->
+    <header class="py-4 shadow-sm bg-white">
+        <div class="container flex items-center justify-between m-auto">
+            <!-- logo -->
+            <a href="#">
+                <img src="./img/image/logo.svg" alt="log" class="w-32">
+            </a>
+            <!-- searchvar -->
+            <div class="flex w-full max-w-xl relative">
+                <span class="absolute left-4 top-3 text-lg text-gray-400">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" class="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-l-md focus:outline-none" placeholder="Search">
+                <button class="bg-primary text-white px-8 border border-primary rounded-r-sm hover:bg-transparent hover:text-primary transition ">Search</button>
+            </div>
+            <!-- icons -->
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-center text-gray-700 hover:text-primary relative transition">
+                    <div class="text-2xl">
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <p class="text-xs leading-3">Wisht list</p>
+                    <span class="absolute right-0 -top-1 bg-primary text-white text-xs grid place-items-center w-5 h-5 rounded-full">8</span>
+                </a>
+                <a href="#" class="text-center text-gray-700 hover:text-primary relative transition">
+                    <div class="text-2xl">
+                      <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <p class="text-xs leading-3">Cart</p>
+                    <span class="absolute -right-3 -top-1 bg-primary text-white text-xs grid place-items-center w-5 h-5 rounded-full">8</span>
+                </a>
+                <a href="#" class="text-center text-gray-700 hover:text-primary relative transition">
+                    <div class="text-2xl">
+                      <i class="far fa-user"></i>
+                    </div>
+                    <p class="text-xs leading-3">Acount</p>
+                </a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
