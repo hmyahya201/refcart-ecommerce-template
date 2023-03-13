@@ -9,8 +9,10 @@ module.exports = {
       },
       colors: {
         primary: "#FD3D57"
-      }
+      },
+      visivility:['group-hover']
     },
   },
   plugins: [],
 }
+
