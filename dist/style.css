@@ -657,6 +657,10 @@ h1, h2, h3, h4, h5, h6{
   margin-left: 2rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .block{
   display: block;
 }
